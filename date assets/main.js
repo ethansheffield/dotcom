@@ -65,7 +65,7 @@ function moveButton() {
 }
 
 // Set the button to move every 2 seconds
-setInterval(moveButton, 1000);
+setInterval(moveButton, 750);
 
 btnYes.addEventListener("click", (e) => {
   btnNo.classList.add("hide");
