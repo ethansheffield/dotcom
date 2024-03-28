@@ -23,7 +23,7 @@ function moveButton() {
   btnNo.style.left = `${newLeft}px`;
 }
 
-setInterval(moveButton, 700);
+setInterval(moveButton, 500);
 
 btnYes.addEventListener("click", (e) => {
   btnNo.classList.add("hide");
