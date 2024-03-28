@@ -29,6 +29,6 @@ btnYes.addEventListener("click", (e) => {
   btnNo.classList.add("hide");
   imageOne.classList.add("hide");
   imageTwo.classList.remove("hide");
-  headerImg.src = '/date assets/date images/letsgo1.gif'; // Update the header image source
+  headerImg.src = '/date assets/date images/letsgo.gif'; // Update the header image source
 });
 
